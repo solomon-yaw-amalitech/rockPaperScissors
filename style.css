@@ -138,6 +138,10 @@ header > h1 {
   .result {
     font-size: 14px;
   }
+
+  body {
+    padding: 3px;
+  }
 }
 
 /*Tablets */
