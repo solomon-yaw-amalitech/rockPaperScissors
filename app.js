@@ -64,7 +64,7 @@ function lose(user,computer)
 function draw(user,computer){
     const smallUserWord = "user".fontsize(2).sub();
     const smallCompWord = "comp".fontsize(2).sub();
-    result_div.innerHTML = `${convertToWord(user)}${smallUserWord} eqals ${convertToWord(computer)}${smallCompWord} ,<br>
+    result_div.innerHTML = `${convertToWord(user)}${smallUserWord} equals ${convertToWord(computer)}${smallCompWord} ,<br>
      Its a draw! 😞`;
 
     document.getElementById(user).classList.add("gray-glow");
